@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rI46BDue)
 # Práctica 4.1: Progr4amación orientada a objetos
 
 Apóyate en los siguientes recursos para realizar la práctica:
@@ -12,26 +13,26 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ## Identificación de la Actividad
 
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** 4.1
+- **Módulo:** PROG
+- **Unidad de Trabajo:** Tema 4: Kotlin: POO y estructuras de datos
+- **Fecha de Creación:** 15/01/2026
+- **Fecha de Entrega:** 16/01/2026
 - **Alumno(s):**
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Mario Montes Bermúdez
+  - **Correo electrónico:** mmonber326@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** MMB
 
 ## Descripción de la Actividad
 
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+La actividad consiste en realizar los ejercicios de kotlin: POO, el contexto de los ejercicios viene explicado en el archivo 'EjerciciosSencillosPOO.md', se espera que el alumno desarrolle dichos ejercicios de forma correcta siguiendo las instrucciones y especificaciones.
 
 ## Instrucciones de Compilación y Ejecución
 
 1. **Requisitos Previos:**
 
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Kotlin
+   - IntellijIdea
 2. **Pasos para Compilar el Código:**
 
    ```bash
@@ -52,7 +53,7 @@ Apóyate en los siguientes recursos para realizar la práctica:
 
 ### Descripción del Desarrollo
 
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+La actividad se ha desarrollado leyendo el readme y siguiendo las instrucciones y enunciados de los ejercicios para poder realizarlos en el lenguaje de programación Kotlin.
 
 ### Código Fuente
 
