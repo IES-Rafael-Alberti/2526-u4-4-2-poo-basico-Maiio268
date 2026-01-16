@@ -18,11 +18,15 @@ class CuentaBancaria(var titular: String, private var saldo: Double = 0.0) {
     }
 }
 
-
 fun main(){
     /* Cuenta bancaria con titular creada, ingreso de 100 y retiro de 50 */
     var CuentaBancaria1 = CuentaBancaria("Mario")
-    CuentaBancaria1.ingresarDinero(100)
-    CuentaBancaria1.retirarDinero(50)
-    CuentaBancaria1.retirarDinero(500)
+    try {
+        CuentaBancaria1.ingresarDinero(100)
+        CuentaBancaria1.retirarDinero(50)
+        CuentaBancaria1.retirarDinero(500)
+    } catch (e: Exception) {
+        println(e.message)
+    }
+
 }

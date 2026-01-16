@@ -1,5 +1,5 @@
 class Vehiculo(private val marca: String, private val modelo: String, private var kilometraje: Double = 0.0) {
-    fun resgistrarViaje(kilometros: Double) {
+    fun registrarViaje(kilometros: Double) {
         if (kilometros >= 0){
             kilometraje += kilometros
         } else {
@@ -14,7 +14,12 @@ class Vehiculo(private val marca: String, private val modelo: String, private va
 
 fun main() {
     val coche = Vehiculo("Audi", "S5", 0.0)
-    coche.resgistrarViaje(100.0)
-    val detalles = coche.detalles()
-    println(detalles)
+    try{
+        coche.registrarViaje(-100.0)
+        val detalles = coche.detalles()
+        println(detalles)
+    } catch(e: Exception){
+        println(e.message)
+    }
+
 }
